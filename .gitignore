@@ -898,6 +898,10 @@ config/database.yml
 *.csr
 *.der
 
+# Allow shared libraries for Next.js app
+!lib/
+!lib/**
+
 # Backup files
 *.bak
 *.backup
